@@ -1,8 +1,7 @@
 import math
-prompt = "What is the radius of the circle? "
 redo = True
 while ( redo ):
-  radius = input( prompt )
+  radius = input( "What is the radius of the circle? " )
   try:
     radius = float(radius)
     if ( radius >= 0 ):
